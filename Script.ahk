@@ -92,7 +92,7 @@ pbp:=1
         Gui Add, Button, x390 y306 w140 h20 gButtonH5, Start
  
     Gui Add, GroupBox, cWhite x200 y335 w340 h30, Credits
-        Gui Add, Text, cGreen x205 y350 w340 h50, HappyBot v3.5 - Developed by XEAHT#3193 and FlorasSecret#9666
+        Gui Add, Text, cGreen x205 y350 w340 h50, HappyBot v3.5 Modified by Lonely-Hub | X#1859 - Modified by XEAHT#3193 |Created by FlorasSecret#9666
 
     
  
