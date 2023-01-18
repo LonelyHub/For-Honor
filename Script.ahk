@@ -23,7 +23,7 @@ pbp:=1
     Gui, Font, cWhite
     Gui, Color, cWhite
  
-    Gui Add, GroupBox, cWhite x10 y10 w180 h145, Characters
+    Gui Add, GroupBox, c0x03E3FC x10 y10 w180 h145, Characters
         Gui Add, CheckBox, x20 y30 w100 h20 vWarden, Warden
         Gui Add, CheckBox, x20 y50 w100 h20 vBlackprior, Blackprior
 	Gui Add, CheckBox, x20 y70 w80 h20 vActive18, Sharman 
@@ -31,32 +31,32 @@ pbp:=1
 	Gui Add, CheckBox, x20 y110 w80 h20 vActive13, Roll
 	Gui Add, CheckBox, x20 y130 w100 h20 vAll_Others, All Others
 	
-    Gui Add, GroupBox, cWhite x10 y155 w180 h85, Auto features for 1x1/2x2/4x4/
+    Gui Add, GroupBox, c0x03E3FC x10 y155 w180 h85, Auto features for 1x1/2x2/4x4/
         Gui Add, CheckBox, x20 y175 w160 h20 vActive1, Dodge Bashes/Unblockables
         Gui Add, CheckBox, x20 y195 w80 h20 vActive2, Auto Block
 	Gui Add, CheckBox, x20 y215 w80 h20 vActive21, Auto GB
 	
 	
-    Gui Add, GroupBox, cWhite x10 y240 w180 h125, For Button - [E]
+    Gui Add, GroupBox, c0x03E3FC x10 y240 w180 h125, For Button - [E]
         Gui Add, CheckBox, x20 y260 w80 h20 vActive3, Auto Parry
         Gui Add, CheckBox, x20 y280 w80 h20 vActive4, Auto Flip
     	Gui Add, CheckBox, x20 y300 w80 h20 vActive14, War/Musha
 	Gui Add, CheckBox, x20 y320 w80 h20 vActive16, Sharman
 	Gui Add, CheckBox, x20 y340 w80 h20 vActive17, Orochi
 
-    	Gui Add, GroupBox, cWhite x200 y250 w170 h85, For Button - [C]
+    	Gui Add, GroupBox, c0x03E3FC x200 y250 w170 h85, For Button - [C]
         Gui Add, CheckBox, x210 y270 w80 h20 vActive9, Auto Parry
         Gui Add, CheckBox, x210 y290 w80 h20 vActive11, Auto CC
         Gui Add, CheckBox, x210 y310 w80 h20 vActive12, Auto Deflect
 	
-     Gui Add, GroupBox, cWhite x200 y10 w170 h55, Resolution (ingame)
+     Gui Add, GroupBox, c0x03E3FC x200 y10 w170 h55, Resolution (ingame)
         Gui Add, Text, x205 y34 w35 h20, X:
         Gui Add, Edit, c390202 x220 y32 w45 h20 Center vres1, 0
         Gui Add, Text, x272 y34 w35 h20, Y:
         Gui Add, Edit, c390202 x287 y32 w45 h20 Center vres2, 0
         Gui Add, Button, x339 y34 w20 h16 gButtonOK, ok
  
-    Gui Add, GroupBox, cWhite x200 y65 w170 h185, Delays
+    Gui Add, GroupBox, c0x03E3FC x200 y65 w170 h185, Delays
         Gui Add, Text, x210 y85 w120 h20, Dodge Delay in ms:
         Gui Add, Edit, c390202 x310 y85 w27 h17 vPause, 0
         Gui Add, Text, x210 y105 w120 h20, Feints Check Delay:
@@ -73,7 +73,7 @@ pbp:=1
         Gui Add, Text, x210 y225 w130 h20, Delay on right deflect in ms
  
  
-        Gui Add, GroupBox, cWhite x380 y10 w160 h135, Hotkeys
+        Gui Add, GroupBox, c0x03E3FC x380 y10 w160 h135, Hotkeys
         Gui, Add, Text, x390 y25 w150 h20, [Dodges On/Off]  - F2
         Gui, Add, Text, x390 y45 w150 h20, [Parry Orange Off/On]  -  F5
 	Gui, Add, Text, x390 y65 w150 h20, [Pause/Resume]  -  Z
@@ -91,8 +91,8 @@ pbp:=1
         Gui Add, Button, x390 y283 w140 h20 gButtonH7, Reload
         Gui Add, Button, x390 y306 w140 h20 gButtonH5, Start
  
-    Gui Add, GroupBox, cWhite x200 y335 w340 h30, Credits
-        Gui Add, Text, cGreen x205 y350 w340 h50, HappyBot v3.5 Modified by Lonely-Hub | X#1859 - Modified by XEAHT#3193 |Created by FlorasSecret#9666
+    Gui Add, GroupBox, c0x03E3FC x200 y335 w340 h30, Credits
+        Gui Add, Text, c0x0356fc x205 y350 w340 h50, HappyBot v3.5 Modified by Lonely-Hub | X#1859 & XEAHT#3193
 
     
  
